@@ -1,0 +1,113 @@
+* {
+    zoom: 0.84;
+    margin: auto;
+    padding: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 300px;
+    background: linear-gradient(to right, #4F2C8C, #c4009c);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    left: auto;
+    top: 25%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 7px;
+    font-size: 700%;
+}
+h4 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-weight: normal;
+    font-size: 200%;
+}
+
+input {
+    background: hsl(0, 0%, 93%);
+    color: #5c5b64;
+    outline: none;
+    transition: all .4s;
+    border: none;
+    margin-top: 25%;
+    padding: 10px 10px 10px 15px;
+    border-radius: 17px; 
+    font-size: 240%;
+    width: 400px;
+    transition: all .6s;
+}
+
+input:focus {
+    background: white;
+}
+
+.reset-btn {
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    right: 50px;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 2rem;
+    padding: 1.4rem;
+    font-weight: 450;
+    background-color: #BAFF00;
+    border-radius: 30px;
+    transition: ease-out .3s;
+    letter-spacing: 2px;
+}
+
+.reset-btn:hover{
+    opacity: 0.9;
+}
+
+.guess-btn {
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    height: 70px;
+    width: 200px;
+    background-color: cyan;
+    transition: ease-out .2s;
+}
+
+.guess-btn:hover{
+    opacity: 0.7;
+}
+
+p {
+  font-size: 120%;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  color: white;
+  text-align: center;
+}
+
+a {
+    color: cyan;
+}
